@@ -1,17 +1,11 @@
 <template>
-    <div>App</div>
+    <router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    setup() {
-        return {};
-    },
+    name: 'App',
 });
 </script>
-
-<style lang="scss">
-@import '@/assets/scss/index.scss';
-</style>
